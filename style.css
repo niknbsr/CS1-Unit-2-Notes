@@ -1,1 +1,33 @@
+/* Select the INNER DIVs */
+.flex-item {
+    width: 10px;
+    height: 50px;
+    background-color: red;
+    margin: 2px;
+}
 
+/* Select the flexible OUTER DIV */
+.flex-container {  
+    border: 2px solid black;
+    width: 95%;
+    height: 50%;
+
+    /* FLEXBOX PROPERTIES */
+    display: flex; /* "flex" makes it horizontal */
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.flex-container-col {  
+    border: 2px solid black;
+    width: 95%;
+    height: 50%;
+    display: flex;
+    
+    
+    justify-content: center;
+    align-items: center;
+    gap: 9px; 
+    flex-direction: column;
+}
